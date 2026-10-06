@@ -14,7 +14,7 @@ public class Dispositivo {
         if (nombre != null && !nombre.isBlank()) {
             System.out.println("El nombre es válido.");
         } else {
-            System.out.println("La cuenta es nulo o está en blanco.");
+            System.out.println("El nombre es nulo o está en blanco.");
         }
         this.nombre=nombre;
     }
