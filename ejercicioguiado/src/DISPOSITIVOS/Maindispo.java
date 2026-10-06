@@ -1,14 +1,14 @@
-package dispositivos;
+package DISPOSITIVOS;
 
-public class main {
+public class Maindispo {
     static void main() {
-        disposi mouse;
-        disposi teclado;
-        disposi monitor;
+        Dispositivo mouse;
+        Dispositivo teclado;
+        Dispositivo monitor;
 
-        mouse=new disposi();
-        teclado=new disposi();
-        monitor=new disposi();
+        mouse=new Dispositivo();
+        teclado=new Dispositivo();
+        monitor=new Dispositivo();
         mouse.nodispositivo1=41;
         teclado.nodispositivo2=23;
         monitor.nodispositivo3=45;
